@@ -1,0 +1,35 @@
+li{
+    list-style:none ;
+    display: inline;
+    margin: 10px;
+    background-color: dodgerblue;
+}
+a{
+    text-decoration: none;
+}
+form{
+    text-align: center;
+    padding: 10px;
+}
+body{
+    background-color:rgb(70, 185, 131);
+}
+#teddy{
+    color: rgb(138, 71, 165);
+    font-style: italic;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: burlywood;
+}
+tr:nth-child(even){
+    background-color: rgb(74, 186, 214);
+}
+table{
+    width: 100%;
+    text-align: left;
+}
